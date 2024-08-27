@@ -452,6 +452,8 @@ MonoBehaviour:
   _server: {fileID: 869511016}
   _maxVisibleRange: 50
   spirits: []
+  spiritsOnStart:
+  - id: '-'
 --- !u!1 &616710532
 GameObject:
   m_ObjectHideFlags: 0
@@ -986,8 +988,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entityInGame: []
-  spiritsOnStart:
-  - id: 1
   _spiritService: {fileID: 550845466}
 --- !u!1 &971938592
 GameObject:

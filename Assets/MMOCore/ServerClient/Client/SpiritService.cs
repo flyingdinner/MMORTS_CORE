@@ -33,8 +33,9 @@ namespace MMOCore.ClientScripts
 
             GameObject spiritGO = Instantiate(_spiritBaseGO, Vector3.zero, Quaternion.identity);
             spawned.handler = spiritGO.GetComponent<SpiritStatusHandler>();
+            spawned.handler.Initialize(spiritSE);
             spawned.spiritSE = spiritSE;
-
+            
             spirits.Add(spawned);
             return spawned;
         }

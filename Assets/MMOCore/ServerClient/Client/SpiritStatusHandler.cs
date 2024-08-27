@@ -8,10 +8,15 @@ namespace MMOCore.ClientScripts
 {
     public class SpiritStatusHandler : MonoBehaviour
     {
-        [field: SerializeField] public SpiritSE spirits { get; private set; }
+        [field: SerializeField] public SpiritSE spiritSE { get; private set; }
         [field: SerializeField] public SpirtStatusSE statusSE { get; private set; }
 
         [field: SerializeField] public CommandBase commandWaitToDO { get; private set; }
+
+        public void Initialize(SpiritSE sse)
+        {
+            spiritSE = sse;
+        }
 
         public void UpdateStus(SpirtStatusSE status)
         {

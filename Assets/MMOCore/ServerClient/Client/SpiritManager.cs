@@ -36,7 +36,7 @@ namespace MMOCore.ClientScripts
             connection = facade;
             mySpirits = new List<Spirit>();
             connection.OnReceiveMessegeFromServer += Connection_OnReceiveMessegeFromServer;
-            StartCoroutine(IE_TestProcess());
+            //StartCoroutine(IE_TestProcess());
 
         }
 
