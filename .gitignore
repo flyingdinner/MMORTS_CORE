@@ -1,0 +1,38 @@
+# Begin Default:
+/Assets/GeneratedLocalRepo/
+/Assets/GeneratedLocalRepo.meta
+/Assets/Plugins/Android/*.jar
+/Assets/Plugins/Android/*.aar
+/Assets/Plugins/Android/*.jar.meta
+/Assets/Plugins/Android/*.aar.meta
+/Assets/StreamingAssets/*Bundles/
+/Assets/StreamingAssets/*Bundles.meta
+/Assets/BundlesStorage/CompiledBundles/
+/Assets/BundlesStorage/CompiledBundles.meta
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/Builds/
+/Debug/
+/Logs/
+/.vs/
+/.vscode/
+/.idea/
+/*.csproj
+/*.sln
+/*.png
+/*.jpg
+/*.log
+*.rar
+*.zip
+*.apk
+*.aab
+*.7z
+# End Default
+
+# Begin Custom:
+/*.apk
+/.vs
+/Library
+/Temp
+/obj/
